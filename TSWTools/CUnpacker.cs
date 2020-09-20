@@ -117,7 +117,7 @@ Unpacking in progress
 					{
 					Counter++;
 					Result +="Working "+ Counter+ " " + Busy +   "\r\n";
-					Application.DoEvents(); // avoid blocking messages
+					System.Windows.Application.DoEvents(); // avoid blocking messages
 				Thread.Sleep(1000);
             }
 				}
@@ -155,7 +155,7 @@ public String UnpackSelected(ObservableCollection<FileInfo> SelectedPaks)
 					{
 					Counter++;
 					Result +="Working "+ Counter+ " " + Busy +   "\r\n";
-					Application.DoEvents(); // avoid blocking messages
+					System.Windows.Forms.Application.DoEvents(); // avoid blocking messages
 					Thread.Sleep(1000);
 					}
 				}
@@ -194,7 +194,7 @@ public String UnpackSelected(ObservableCollection<FileInfo> SelectedPaks)
 				{
 				Counter++;
 				Result +="Working "+ Counter+ " " + Busy +   "\r\n";
-				Application.DoEvents(); // avoid blocking messages
+				System.Windows.Forms.Application.DoEvents(); //TODO: refactor this  avoid blocking messages
 				Thread.Sleep(1000);
 				}
 			Busy=false;

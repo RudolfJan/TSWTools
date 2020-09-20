@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:userControls="clr-namespace:Styles.Library.UserControls;assembly=Styles.Library"
         mc:Ignorable="d"
-        Title="TSW Tools"
+        Title="Toolkit for TSW"
         WindowStartupLocation="CenterScreen"
         Style="{StaticResource AllWindows}">
 	<ScrollViewer>
 		<StackPanel>
 			<Image Margin="10" Source="Images/MainWindowImage.png" MaxHeight="250" />
+			<TextBlock FontSize="14" TextWrapping="Wrap" MaxHeight="60" MaxWidth="500" Style="{StaticResource DefaultTextBlock}">Important. Use this Toolkit only for TSW2! For TSW2020 download TS, which is a similar program</TextBlock>
 			<Grid>
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition />
@@ -20,6 +21,7 @@
 				</Grid.ColumnDefinitions>
 				<Border Grid.Column="0" Style="{StaticResource DefaultBorder}">
 					<StackPanel>
+						
 						<TextBlock Style="{StaticResource HeaderTextBlock}">Utilities</TextBlock>
 						<Button Name="OptionsButton" Style="{StaticResource WideButton}"
 						        Click="OnOptionsButtonClicked"

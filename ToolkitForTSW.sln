@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSWTools", "TSWTools\TSWTools.csproj", "{B2FE5230-3D35-49BB-B0EA-A34E54BB983B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolkitForTSW", "TSWTools\ToolkitForTSW.csproj", "{B2FE5230-3D35-49BB-B0EA-A34E54BB983B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Styles.Library", "..\RudolfLibraries\Styles.Library\Styles.Library.csproj", "{97538D7F-0F54-44AB-83D3-D1DD7561CDB4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging.Library", "..\RudolfLibraries\Logging.Library\Logging.Library.csproj", "{7067CD8F-4B8F-4152-B28E-2D5E6B45CDDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThumbnailSharp", "..\mirzaevolution\ThumbnailSharp\ThumbnailSharp\ThumbnailSharp.csproj", "{91CE1EFE-6CBF-4AC9-802E-C8FBA9E9D9D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7067CD8F-4B8F-4152-B28E-2D5E6B45CDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7067CD8F-4B8F-4152-B28E-2D5E6B45CDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7067CD8F-4B8F-4152-B28E-2D5E6B45CDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CE1EFE-6CBF-4AC9-802E-C8FBA9E9D9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CE1EFE-6CBF-4AC9-802E-C8FBA9E9D9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CE1EFE-6CBF-4AC9-802E-C8FBA9E9D9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CE1EFE-6CBF-4AC9-802E-C8FBA9E9D9D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
